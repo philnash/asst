@@ -1,0 +1,19 @@
+{
+  "name": "openai-cli-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openai",
+    "chat-gpt"
+  ],
+  "author": {
+    "name": "Phil Nash",
+    "email": "philnash@gmail.com",
+    "url": "https://philna.sh/"
+  },
+  "license": "MIT"
+}
