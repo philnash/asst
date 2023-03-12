@@ -1,10 +1,11 @@
 {
-  "name": "openai-cli-javascript",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@philnash/asst",
+  "version": "0.0.1",
+  "description": "A command line interface for OpenAI's ChatGPT written in JavaScript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodenv ."
   },
   "keywords": [
     "openai",
@@ -15,5 +16,12 @@
     "email": "philnash@gmail.com",
     "url": "https://philna.sh/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "node-env-run": "^4.0.2"
+  }
 }
